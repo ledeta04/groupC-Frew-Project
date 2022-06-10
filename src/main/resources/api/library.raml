@@ -1,0 +1,12 @@
+#%RAML 1.0 Library
+usage: library
+
+types:
+  dataType: !include dataType.raml
+
+traits:
+  errorResp: !include trait.raml
+
+securitySchemes:
+  mySec: !include securityScheme.raml
+
